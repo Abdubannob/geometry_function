@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="lines">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+
+            </div>
+            <!-- <span>Calculator</span> -->
+            <!-- <section class="operation hidopt">
+               <p>GEOMETRIC FORMULAS</p>
+                  <select name="" id="select"> -->
+            <!-- <option value="circumtance">circumtance</option>
+                <option value="diametr">diametr</option>
+                <option value="radius">radius</option> -->
+            <!-- <option type="radio"  value="RightTriangle">Right Triangle</option>
+                <option type="radio" value="ScaleneTriangle">Scalene Triangle</option>
+                <option type="radio" value="EquilateralTriangle">Equialteral Triangle</option>
+                <option type="radio" value="square">square</option>
+                <option type="radio" value="Rectangle">Rectangle</option>
+                <option type="radio" value="Paralellogram">Paralellogram</option>
+                <option type="radio" value="Sphere">Sphere</option>
+                <option type="radio" value="Hexagon">Hexagon</option>
+                <option type="radio" value="Pentagons">Pentagon</option>
+                <option type="radio" value="Esclipse">Esclipse</option>
+
+            </select>
+
+           
+            </section> -->
+
+        </div>
+        <main class="content">
+            <span class="bb">
+                <p>GEOMETRIC FORMULAS</p>
+                <select name="" id="select">
+                    <!-- <option value="circumtance">circumtance</option>
+              <option value="diametr">diametr</option>
+              <option value="radius">radius</option> -->
+                    <option type="radio" value="RightTriangle">Right Triangle</option>
+                    <option type="radio" value="ScaleneTriangle">Scalene Triangle</option>
+                    <option type="radio" value="EquilateralTriangle">Equialteral Triangle</option>
+                    <option type="radio" value="square">Square</option>
+                    <option type="radio" value="Trapezoid">Trapezoid</option>
+                    <option type="radio" value="Rectangle">Rectangle</option>
+                    <option type="radio" value="Paralellogram">Paralellogram</option>
+                    <option type="radio" value="Sphere">Sphere</option>
+                    <option type="radio" value="Hexagon">Hexagon</option>
+                    <option type="radio" value="Pentagon">Pentagon</option>
+                    <option type="radio" value="Cylinder">Cylinder</option>
+                    <option type="radio" value="Circle">Circle</option>
+                    <option type="radio" value="Cuboid">Cuboid</option>
+
+                </select>
+            </span>
+            <div class="text">
+
+               <span class="name">
+                <h2>A = Area</h2>
+                <h2>P = Perimetr</h2>
+                <h2>V = Volume</h2>
+               </span>
+               <div id="mid" class="middle">
+                <img id="img" src="./images/right.PNG" alt="">
+               </div>
+                <select id="sel">
+                    <!-- <option class="opt1" value="perimetr">Perimetr</option>
+                    <option class="opt2" value="area">Area</option>
+                    <option  class="opt3" value="c">C</option> -->
+                </select>
+            </div>
+
+            <div id="opt" class="opt">
+                <!-- <p></p>
+            <input type="number" id="inp1">
+            <p id="bb"></p>
+            <input type="number" id="inp2">
+            <p id="pp"></p>
+            <input type="number" id="inp3"> -->
+            </div>
+            <button onclick="handlerButton(this)"  >Calculate</button>
+            <div class="output">
+                <p class="boxes  box1"></p>
+                <div class="boxes  screen">
+                    <!-- <div class="scrs"></div> -->
+                </div>
+                <div class="bx" id="bx" ></div>
+                <div class="boxes  formula">
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
